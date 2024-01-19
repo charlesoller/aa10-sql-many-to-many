@@ -1,3 +1,4 @@
+
 -- Tells SQLite to enforce foreign key restrictions
 PRAGMA foreign_keys = ON;
 DROP TABLE IF EXISTS musician_instruments;
@@ -61,4 +62,3 @@ VALUES (1, 1),
   (9, 1),
   (9, 5),
   (10, 5);
-  
